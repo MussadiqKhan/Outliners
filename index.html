@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/0d975ce109.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <title>OutRider</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-lignt">
+        <a class="navbar-brand" href="#">
+          <img src="/images/logo.png" alt="outrider logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"></div>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">USP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!--Carousel-->
+    <div>
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100 slide1"
+              src="./images/slide1.png"
+              alt="First slide"
+            />
+            <div class="carousel-caption">
+              <h2>
+                Don't want to worry about the security of loved ones?
+              </h2>
+              <h4>Explore More</h4>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100 slide1"
+              src="./images/slide2.png"
+              alt="First slide"
+            />
+            <div class="carousel-caption">
+              <h2>
+                Imagine being able to know where your loved ones are
+              </h2>
+              <h4>Explore More</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--banner-->
+    <div class="background">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 text">
+            <h1 style="color: #c21b00;">Seems Impossible?</h1>
+            <h1 style="color: #00b6b2;">We made it Possible</h1>
+            <button class="btn btn-light">But How?</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Products-->
+    <div>
+      <div class="first_bg">
+        <div class="header"><h1>Our Products</h1></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img class="usb" src="/images/usb.png" width="200" />
+
+                <div class="card-body text-center">
+                  <h4 class="card-title">GPS-007</h4>
+                  <p class="card-text">
+                    Specially made for Elders, Children and Women. This small,
+                    versatile tracking device can be kept in the bag, carried in
+                    pocket or however!
+                  </p>
+                  <p style="text-align: center; color: #727272;">1999/-</p>
+                  <button class="btn btn-default">Features</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img
+                  class="powerbank"
+                  src="/images/powerbank.png"
+                  width="200"
+                />
+
+                <div class="card-body text-center">
+                  <h4 class="card-title">Power Tap</h4>
+                  <p class="card-text powerbank_text">
+                    Powerbank to charge your phone & the perfect disguise for
+                    your tracker Massive Battery Life to go for weeks without
+                    charging (5000mah)
+                  </p>
+                  <button class="btn btn-default" disabled>
+                    Under Development
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img
+                  class="powerbank"
+                  src="/images/powerbank.png"
+                  width="200"
+                />
+
+                <div class="card-body text-center">
+                  <h4 class="card-title">Power Tap v2</h4>
+                  <p class="card-text powerbank_text">
+                    Powerbank to charge your phone & the perfect disguise for
+                    your tracker Massive Battery Life to go for weeks without
+                    charging (10000mah)
+                  </p>
+                  <button class="btn btn-default" disabled>
+                    Under Development
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="second_bg"></div>
+    </div>
+
+    <!---JS/JQuery files -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

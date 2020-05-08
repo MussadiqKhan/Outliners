@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #ffffff;
+  opacity: 0.8;
+}
+
+ul li a {
+  color: #2da795 !important;
+  padding: 20px !important;
+}
+a:hover {
+  color: #0b584d !important;
+}
+nav img {
+  width: 229px;
+}
+.slide1 {
+  height: 550px;
+}
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  top: 10%;
+  z-index: 1;
+  margin: 0 auto;
+  width: 50%;
+  height: 100%;
+}
+.carousel-caption > h2 {
+  color: #878787;
+}
+.carousel-item > img {
+  height: 520px;
+}
+
+.background {
+  background-image: url("banner_image.png");
+  height: 550px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.text {
+  margin-top: 8%;
+}
+
+.first_bg {
+  background-image: url("first_bg.png");
+  height: 600px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.second_bg {
+  background-image: url("second_bg.png");
+  width: 100%;
+  margin-top: -10%;
+  height: 500px;
+  background-repeat: repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.header {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.card {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.usb {
+  margin: 0 auto;
+  margin-top: -20px;
+}
+.powerbank {
+  margin: 0 auto;
+
+  margin-top: -65px;
+}
+.btn-default {
+  background: rgb(2, 0, 36) !important;
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(76, 76, 76, 1) 0%,
+    rgba(0, 255, 186, 1) 82%
+  ) !important;
+  width: 180px;
+  border-radius: 30px;
+  color: white;
+  border: none;
+}
+.powerbank_text {
+  height: 140px;
+}
+.btn-default:hover {
+  color: white !important;
+}
+@media screen and (max-width: 400px) {
+  nav img {
+    width: 150px;
+  }
+}
