@@ -35,6 +35,7 @@ nav img {
 }
 .carousel-item > img {
   height: 520px;
+  object-fit: cover !important;
 }
 
 .background {
@@ -50,7 +51,7 @@ nav img {
 
 .first_bg {
   background-image: url("first_bg.png");
-  height: 600px;
+  height: auto;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -59,7 +60,7 @@ nav img {
   background-image: url("second_bg.png");
   width: 100%;
   margin-top: -10%;
-  height: 500px;
+  height: auto;
   background-repeat: repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
@@ -73,6 +74,11 @@ nav img {
   border-radius: 15px;
   border: none;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.card-div {
+  display: flex;
+  justify-content: center !important;
+  margin-bottom: 20px;
 }
 .usb {
   margin: 0 auto;
@@ -102,8 +108,35 @@ nav img {
 .btn-default:hover {
   color: white !important;
 }
+.products {
+  margin-top: 100px;
+}
+.mobile {
+  margin-top: 200px !important;
+}
+.about {
+  padding: 30px;
+  background-color: #90f0bd;
+  border-radius: 20px;
+}
+.about-container {
+  margin-bottom: 30px;
+}
+.name {
+  font-weight: 700;
+  color: #014bb9;
+}
+.position {
+  color: #bebebe;
+}
 @media screen and (max-width: 400px) {
   nav img {
     width: 150px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .carousel-item > img {
+    height: 820px;
+    object-fit: cover !important;
   }
 }
