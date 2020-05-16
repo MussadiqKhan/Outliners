@@ -113,7 +113,8 @@ nav img {
   margin-top: 100px;
 }
 .mobile {
-  margin-top: 200px !important;
+  margin-top: 300px !important;
+  position: relative;
 }
 .about {
   padding: 30px;
@@ -165,6 +166,27 @@ textarea,
 }
 .details {
   margin-top: 30px;
+}
+.inline-photo {
+  opacity: 0;
+  position: relative;
+  transform: translateY(4em) rotateZ(-5deg);
+  transition: transform 4s 0.25s cubic-bezier(0, 1, 0.3, 1),
+    opacity 0.3s 0.25s ease-out;
+  margin-top: -20% !important;
+  margin-right: 35px !important;
+  max-width: 600px;
+  width: 90%;
+  will-change: transform, opacity;
+}
+.main-image {
+  position: absolute;
+  margin-top: 2% !important;
+  margin-left: -380px !important;
+}
+.inline-photo.is-visible {
+  opacity: 1;
+  transform: rotateZ(-2deg);
 }
 @media screen and (max-width: 400px) {
   nav img {
